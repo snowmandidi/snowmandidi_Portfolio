@@ -1,3 +1,9 @@
+@keyframes dropDownAnimation {
+    from {transform: translateY(-100px);}
+    to {transform: translateY(0);}
+}
+
+
 .top-bar {
     align-items: center;
     display: flex;
@@ -11,6 +17,8 @@
 
     background-color: #140c0b;
     backdrop-filter: blur(6px);
+
+    animation: dropDownAnimation 0.5s cubic-bezier(0.25, 0.46, 0.45, 0.94) both;
 }
 
 .top-bar nav {
@@ -19,9 +27,17 @@
 }
 
 .top-bar a {
-    color: white;
+    color: #ffffff;
+    font-size: 1rem;
 }
 
 .top-bar a:hover {
-    color: rgb(71, 240, 183);
+    color: #47f0b7;
+    font-size: 1.2rem;
+
+    transition: all 0.5s;
 }
+
+.top-bar a:not(:hover) {
+    transition: all 0.5s;
+}    

@@ -5,7 +5,7 @@ import "./Contact.css"
 const profiles = [
     {name: "GitHub", link: "https://github.com/snowmandidi", icon: <FaGithub />},
     {name: "Discord", link: "https://discord.com/users/1023596205168676944", icon: <FaDiscord />},
-    {name: "E-mail", link: "mailto:snowmandidi@hotmail.com", icon: <HiOutlineMail/>, description: "Send E-mail"}
+    {name: "E-mail", link: "mailto:snowmandidi@hotmail.com", icon: <HiOutlineMail/>, description: "Send an E-mail"}
 ]
 
 function Contact() {
