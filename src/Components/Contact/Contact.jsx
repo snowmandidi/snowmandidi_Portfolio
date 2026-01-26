@@ -1,9 +1,11 @@
 import { FaDiscord, FaGithub } from 'react-icons/fa';
+import { HiOutlineMail } from "react-icons/hi";
 import "./Contact.css"
 
 const profiles = [
     {name: "GitHub", link: "https://github.com/snowmandidi", icon: <FaGithub />},
     {name: "Discord", link: "https://discord.com/users/1023596205168676944", icon: <FaDiscord />},
+    {name: "E-mail", link: "mailto:snowmandidi@hotmail.com", icon: <HiOutlineMail/>, description: "Send E-mail"}
 ]
 
 function Contact() {
@@ -18,7 +20,7 @@ function Contact() {
                         {profile.icon}
                         <div className="profile-card-text">
                             <strong>{profile.name}</strong>
-                            <span>View Profile</span>
+                            <span>{profile.description? profile.description : "View Profile"}</span>
                         </div>
                     </a>
                 )
