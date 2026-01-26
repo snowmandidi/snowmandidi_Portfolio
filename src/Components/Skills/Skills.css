@@ -10,7 +10,6 @@
     background-color: #222121;
 }
 
-
 .skills-grid {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
@@ -26,8 +25,20 @@
     background-color: #1b1a1a;
     padding: 25px;
     border-radius: 8px;
-    border: 1px solid, #1b1a1a;
+    border: 2px solid #1b1a1a;
 }
+
+.skill-category:hover {
+    border: 2px solid #7fffd4;
+    transform: scale(1.05);
+
+    transition: all 0.5s;
+}
+
+.skill-category:not(:hover) {
+    transition: all 0.5s;
+}
+
 
 .skill-category h4 {
     color: #aade87;
