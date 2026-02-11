@@ -19,8 +19,8 @@ function Contact() {
             {/* Create a grid for the profiles */}
             {/* For each profile entry create a link and a div inside for the text */}
             <div className="contacts-grid"> 
-                {profiles.map(profile => (  
-                    <a className="profile-card" href={profile.link} target='_blank' rel="noopener noreferrer">
+                {profiles.map((profile, index) => (  
+                    <a key={index} className="profile-card" href={profile.link} target='_blank' rel="noopener noreferrer">
                         {profile.icon}
                         <div className="profile-card-text">
                             <strong>{profile.name}</strong>
