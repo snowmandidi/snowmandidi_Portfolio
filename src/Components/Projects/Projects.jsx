@@ -28,7 +28,7 @@ function Projects() {
                         <h4>{project.name}</h4>
                         <p className="project-description">{project.description}</p>
                         {project.githubURL ? (
-                            <a className="githubURL" href={project.githubURL} target='_blank' rel="noopener noreferrer"><FaGithub/>Github</a>
+                            <a className="githubURL" href={project.githubURL} target='_blank' rel="noopener noreferrer"><FaGithub/> Github</a>
                         ) :
                             <p className="githubURL"><FaGithub/> This projects repository is private</p>
                         }
