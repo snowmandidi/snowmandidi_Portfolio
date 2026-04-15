@@ -1,13 +1,13 @@
 {/* Import the icons and the css file */}
 import "./Skills.css"
-import { SiJavascript, SiLua, SiHtml5, SiCss3, SiNodedotjs, SiReact, SiGit, SiMetasploit, SiUnrealengine, SiBlueprint, SiUnity, SiRobloxstudio} from 'react-icons/si'; 
+import { SiJavascript, SiLua, SiHtml5, SiCss3, SiNodedotjs, SiReact, SiGit, SiMetasploit, SiUnrealengine, SiBlueprint, SiUnity, SiRobloxstudio, SiKalilinux} from 'react-icons/si'; 
 import { FaDragon, FaRegEye } from "react-icons/fa";
 
 {/* All the skills I want to display */}
 const skills = { 
     Programming: [{name: "Javascript", icon: <SiJavascript/>}, {name: "Lua", icon: <SiLua/>}],
     Web: [{name: "HTML", icon: <SiHtml5/>}, {name: "CSS", icon: <SiCss3/>},  {name: "NodeJS", icon: <SiNodedotjs/>}, {name: "React", icon:  <SiReact/>}],
-    Cybersecurity: [{name: "Metasploit", icon: <SiMetasploit/>}, {name: "Hydra", icon: <FaDragon/>}, {name: "Nmap", icon: <FaRegEye/>}],
+    Cybersecurity: [{name: "Kali Linux", icon: <SiKalilinux/>}],
     "Game Development": [{name: "Unreal Engine 5", icon: <SiUnrealengine/>}, {name: "Unity", icon: <SiUnity/>}, {name: "Roblox Studio", icon: <SiRobloxstudio/>}],
     Other: [{name: "Git", icon: <SiGit/>}, {name: "UE5 Blueprints", icon: <SiBlueprint/>}]
 }

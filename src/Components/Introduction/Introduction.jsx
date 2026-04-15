@@ -6,7 +6,7 @@ function Introduction() {
         <section className="intro-section">
             <div className="intro-text">
                 <h1>Hi, I'm Snow</h1>
-                <p>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.</p>
+                <p>Just trying to understand how all of this tech works. I hope I can help you on my journey.</p>
             </div>
         </section>
     );

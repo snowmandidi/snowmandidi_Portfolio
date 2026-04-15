@@ -7,7 +7,7 @@ function Header() {
             {/* Create shortcuts to sections of the site */}
             <nav> 
                 <a href="#">Home</a>
-                <a href="#">Experience</a>
+                {/*<a href="#">Experience</a>*/}
                 <a href="#skills">Skills</a>
                 <a href="#projects">Projects</a>
                 <a href="#contact">Contact</a>
