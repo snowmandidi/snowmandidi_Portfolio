@@ -5,7 +5,7 @@ import { FaGithub } from "react-icons/fa";
 const projects = [
     {
         name: "Snow Core Bot",
-        description: "A custom bot developed for the Snow Core Group (14k+ members) using NodeJS and the discord.js library. It allows staff members to retrieve, update and manage progression data through integration with Google Sheets, supporting and streamlining administrative workflows.",
+        description: "A custom bot developed for the Snow Core Discord (14k+ members) using NodeJS and the discord.js library. It allows staff members to retrieve, update and manage progression data through integration with Google Sheets, supporting and streamlining administrative workflows.",
         githubURL: null,
     },
     {
